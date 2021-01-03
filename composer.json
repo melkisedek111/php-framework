@@ -1,0 +1,18 @@
+{
+    "name": "melki/php",
+    "authors": [
+        {
+            "name": "Melkisedek Ubalde",
+            "email": "melkisedek222@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "thecore/php-mvc-core": "v1.0.3"
+    }
+}
